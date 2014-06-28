@@ -1,0 +1,26 @@
+{
+  "name": "test1",
+  "version": "0.0.0",
+  "description": "Fun with node.js",
+  "main": "test1.js",
+  "dependencies": {
+    "node-dir": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CBke/Fun-with-Node.js.git"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "CBke",
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/CBke/Fun-with-Node.js/issues"
+  },
+  "homepage": "https://github.com/CBke/Fun-with-Node.js"
+}
