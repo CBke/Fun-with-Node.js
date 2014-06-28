@@ -1,3 +1,3 @@
 exports.index = function(req, res){
-    res.write("index 3");
+    res.end("index 3");
 };
