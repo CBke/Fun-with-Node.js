@@ -18,7 +18,10 @@ $(document).ready(function(){
   $("#speak").click( function(){
     $.ajax({
   	'url' : 'msg/' + $('#message').val(),
-	'type' : 'GET'
+	'type' : 'GET',
+	'success' : function(data) {
+	   $('#message').val("");
+         }
     });
   });
 
