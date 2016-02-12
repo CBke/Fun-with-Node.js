@@ -17,7 +17,7 @@ poll();
 $(document).ready(function(){
   $("#speak").click( function(){
     $.ajax({
-  	'url' : 'msg/' + $('#message').val(),
+  	'url' : '/messages/msg/' + $('#message').val(),
 	'type' : 'GET',
 	'success' : function(data) {
 	   $('#message').val("");
